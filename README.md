@@ -12,6 +12,7 @@ This Android application allows users to browse categories, view products, and a
 - **Clean Architecture**: Layered architecture with separation of concerns
 - **Multi-Modules**: Modular project structure
 - **Coroutines, and Flow**: Asynchronous programming
+- **Kotlin**: 100% Language covered
 
 ## Features
 1. **Search Products**  
@@ -32,9 +33,11 @@ This Android application allows users to browse categories, view products, and a
    - Room database is used to save and manage data locally.
 
 5. **UI Screens**  
-   - **Categories and Products Screens**: List categories and products with details such as title, description, image, and quantity.
-   - **Navigation Bar**: Bottom navigation for Orders, Menu, and Settings screens.
-   - **Placeholder Screens**: Menu, Orders, and Settings screens.
+- **Categories and Products Screens**:  
+     - Categories are displayed in dynamic tabs, with each tab representing a category.  
+     - Products are displayed in a grid view with details like name, description, price, image, and quantity.  
+- **Navigation Bar**: Bottom navigation for Orders, Menu, and Settings screens.
+- **Placeholder Screens**: Menu, Orders, and Settings screens.
 
 6. **Responsive Design**  
    - Optimized for portrait mode with UI adjustments for different screen sizes.
