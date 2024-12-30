@@ -1,4 +1,4 @@
-package com.basma.data
+package com.basma.common
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.basma.data.test", appContext.packageName)
+        assertEquals("com.basma.common.test", appContext.packageName)
     }
 }

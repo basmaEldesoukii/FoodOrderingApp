@@ -1,4 +1,4 @@
-package com.basma.foodorderingapp
+package com.basma.common
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
