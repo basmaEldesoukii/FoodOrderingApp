@@ -41,3 +41,8 @@ This Android application allows users to browse categories, view products, and a
 
 6. **Responsive Design**  
    - Optimized for portrait mode with UI adjustments for different screen sizes.
+     
+## Screenshots
+![Screenshot2](https://github.com/user-attachments/assets/da15f31f-6f27-4b4f-9224-eb1664770957)
+![screenshot1](https://github.com/user-attachments/assets/bf0cab6c-8504-4dd5-ade4-197980d1fbee)
+![Screenshot3](https://github.com/user-attachments/assets/d737eeda-d4fa-4750-b013-c1bc58868d3a)
