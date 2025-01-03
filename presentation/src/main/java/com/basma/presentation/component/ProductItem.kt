@@ -73,12 +73,21 @@ fun ProductItem(
                         color = Color.Black,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 8.dp, end = 8.dp, bottom = 8.dp)
+                            .padding(start = 8.dp, end = 8.dp)
                     )
                 }
             }
 
-            // Quantity Badge (if greater than 0)
+            Text(
+                text = "$${product.price}",
+                style = MaterialTheme.typography.bodyMedium,
+                color = Color.Green,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier
+                    .align(Alignment.BottomEnd)
+                    .padding(8.dp)
+            )
+
             if (quantity > 0) {
                 Box(
                     modifier = Modifier

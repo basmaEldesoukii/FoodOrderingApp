@@ -157,6 +157,6 @@ class TablesViewModel(
     }
 
     private fun clearOrder() {
-        _uiState.update { it.copy(cart = emptyList(), totalPrice = 0.0) }
+        _uiState.update { it.copy(cart = emptyList(), cartSize = 0, totalPrice = 0.0) }
     }
 }
